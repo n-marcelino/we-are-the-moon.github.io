@@ -1,0 +1,90 @@
+#about_me {
+    padding: 25px 50px 65px 50px;
+}
+
+#about_heading {
+    text-align: center;
+}
+#about_heading img:hover {
+    content: url(images/headers/header_aboutme_active.png);
+}
+#about_heading p {
+    padding: 0 33vh 7vh 33vh;
+    line-height: 1.8em;
+}
+
+#about_flex {
+    display:flex;
+    padding: 0 15vh;
+}
+#about_flex img {
+    height: 500px;
+    width: auto;
+    box-shadow: -25px 25px #FFC67A;
+}
+#about_flex p {
+    padding: 0 0 0 7vh;
+    line-height: 1.8em;
+}
+#about_me #p3 {
+    padding: 40px 125px 40px 116px;
+    line-height: 1.8em;
+}
+
+/*-------------------------------*/
+
+#quotesection {
+    background-color: #F7F7F5;
+    background-image: url(images/mikrokosmos.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 0 10px;
+    height: 50em;
+}
+
+#quote {
+    transform: rotate(-4deg);
+    padding: 60px 0 0 0;
+    display: flex;
+}
+
+#quote_container {
+    width: 580px;
+    padding: 0 0 0 150px;
+}
+#quote p {
+    font-family: 'Karumbi Regular';
+    font-size: 2.5em;
+    padding: 30px 0 0 0; /*to lower the quote so the quotation marks looks higher*/
+}
+#quote #quote_credit {
+    padding: .5em 0 0 4em;
+    font-size: 2em;
+}
+#quote #quote_credit span {
+    font-size: .5em;
+}
+
+#quote img {
+    height: 80px;
+    width: 80px;
+}
+#open {
+    position: absolute;
+    left: 60px;
+}
+#close {
+    position: absolute;
+    left: 72vh;
+}
+
+
+/*-------------------------------*/
+
+#moreabout {
+    padding: 5em 10em;
+}
+
+#moreabout p {
+    line-height: 1.8em;
+}

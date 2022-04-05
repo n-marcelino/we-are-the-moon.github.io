@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/aboutme.css" />
+    <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="description" content="CS101 Final Output" />
+    <meta name="author" content="BSCS Nico Marcelino" />
+
+    <title>ABOUT ME || we are the moon</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/images/we_are_the_moon.png" class="center" /></a>
+    </header>
+    <nav>
+        <div id="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li style="float:right"><a href="contactme.html">CONTACT ME</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about_me">
+        <div id="about_heading">
+            <img id="headertext" src="assets/images/headers/header_aboutme.png" />
+            <p >
+                I'm Nico Marcelino, a first year BSCS student at CIIT - College of Arts and Technology!
+                <i>We are the moon</i> was built from scratch for my final output in CS101, Introduction to Computing.
+                Explore the site for more wonderful content!
+            </p>
+        </div>
+
+        <div id="about_flex">
+            <img src="assets/images/me/2.jpg" />
+            <div>
+                <p style="font-size:1.7em">
+                    Despite the image to the left, I'm not actually a photographer.
+                    I just happen to be the one that my sister (the actual owner of the camera) goes to whenever she's in need of photoshoots.
+                    Whenever I accompany her, I dress the part to feel a little more professional.
+                    Truth be told, I'm more partial towards art, music, and literature.
+                    <br /> <br />
+                    Recently though, my passion has been for dance.
+                    Granted, I haven't been dancing for too long,
+                    since all my life, I was that stereotypical comsci nerd who played games,
+                    studied programming, and avoided physical activities.
+                    That changed when I found inspiration in professional dancers
+                    and hesitantly dipped my toes into the ocean of dance.
+                    It's the best decision I've made recently and I've been a lot happier for it.
+                </p>
+            </div>
+        </div>
+
+        <p id="p3" style="font-size:1.7em">
+            Still, it's making me wish I fell in love with dancing much earlier,
+            because computer science is ridiculously draining. To no fault of anyone
+            other than myself, I feel like my brain cells disintegrate
+            every time I sit down for lectures. A lot of times, I wish I was studying
+            dance instead, because that seems like a more enjoyable kind of brain-work.
+            Oh well. I'll just keep working hard! Fighting! ✦
+            </p>
+    </section>
+
+    <section id="quotesection">
+        <div id="quote">
+            <img id="open" src="assets/images/openquote.png" />
+            <div id="quote_container">
+                <p id="quote_text">
+                    City lights, this city's star - I remember the night sky I saw when I was young. Where people are light, where people are stars. Perhaps the reason this night looks so beautiful is not because of these stars or lights, but us.
+                </p>
+                <p id="quote_credit">
+                    - MIKROKOSMOS,  <span>방탄소년단</span>
+                </p>
+            </div>
+            <img id="close" src="assets/images/closequote.png" />
+            <div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="moreabout">
+        <p style="text-align:center; letter-spacing: 0.08em;font-family:'Manjari Thin'">
+            " It's alright to stop. <br />
+            There's no need to run without even knowing the reason.<br />
+            It's alright to not have a dream.<br />
+            If you have moments where you feel happiness for a while, it's alright to stop.<br />
+            Now we don't run without knowing the destination.<br />
+            It's alright to not have a dream.<br />
+            All the breaths you breathe are already in paradise. "
+            <br />✦<br />
+            <span style="font-size: .75em; color: #B57929"> PARADISE 방탄소년단</span>
+        </p>
+    </section>
+
+    <section id="the_etc" style="height: 48em">
+        <div id="chosenflex">
+            <div id="cat"></div>
+            <div id="food"></div>
+            <div id="book"></div>
+        </div>
+
+        <div id="audio" style="margin: 150px auto">
+            <iframe src="https://open.spotify.com/embed/track/5hnbE5BF2e8BCk9OMR1UVC" width="40%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+
+    </section>
+    <footer>
+        <div id="footer">
+            <div>
+                <h2>"we are the moon"</h2>
+                <p>BSCS | Nico Marcelino</p>
+                <p>CS101</p>
+            </div>
+            <div id="brs">
+                <div id="vertical_br"></div>
+            </div>
+            <div id="socials">
+                <a target="_blank" href="https://www.facebook.com/marcelinonab/"><img src="assets/images/fb.png" id="fb" /></a>
+                <a target="_blank" href="https://www.instagram.com/conquihare/"><img src="assets/images/ig.png" id="ig" /></a>
+            </div>
+        </div>
+
+        <p>©WE ARE THE MOON 2021. All Rights Reserved.<br />Powered by <i>my love for you</i> ♥</p>
+    </footer>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script> <!--sticky-->
+</body>
+</html>

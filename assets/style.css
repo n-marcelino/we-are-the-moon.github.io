@@ -1,0 +1,197 @@
+/*---FONTS---*/
+@font-face {
+    font-family: "Manjari Thin";
+    src: url(fonts/manjari/Manjari-Thin.ttf);
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url(fonts/ptsans/PTSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Cooper Hewitt";
+    src: url(fonts/cooperhewitt/CooperHewitt-Book.otf);
+}
+@font-face {
+    font-family: "Karumbi Regular";
+    src: url(fonts/Karumbi_Regular.ttf);
+}
+
+/*---UNIVERSAL FORMATTING---*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans';
+}
+a, h1, h2, h3, p {
+    color: #210D41;
+}
+a:hover {
+    color: #F9A739;
+}
+
+/*---HEADER---*/
+header img {
+    width: 40%;
+    padding: 3em 0 3em 0;
+}
+
+/*---NAVBAR---*/
+#navbar {
+    padding: 0 20px 0 20px;
+    overflow: hidden;
+    background-color: #FFFF;
+    z-index: 500;
+}
+#navbar ul {
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+#navbar li a {
+    display: block;
+    color: #210D41;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 0 0 5px lightgray;
+    font-family: 'Cooper Hewitt';
+}
+#navbar li a:hover {
+    text-shadow: 0 0 5px #F9A739;
+    font-size: 1.1em;
+    transition: text-shadow 0.3s ease-in-out;
+    transition: font-size 0.3s ease-in-out;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px gray;
+}
+
+/*-------------SECTIONS-------------*/
+section h1 {
+    font-size: 2.5em;
+    font-family: 'Manjari Thin';
+}
+section a {
+    text-decoration: none;
+    font-family: 'Manjari Thin';
+    color: #210D41;
+}
+section p {
+    font-size: 1.5em;
+    color: #210D41;
+}
+
+
+
+/*--FLEX SECTION--*/
+#the_etc {
+    background-color: #F7F7F5;
+    height: 43em;
+    padding: 25px 0;
+    display: block;
+}
+#chosenflex {
+    height: 23em;
+    display: flex;
+    text-align: center;
+    padding: 85px;
+}
+#chosenflex div {
+    width: 500px;
+    height: 350px;
+    margin: 0 25px;
+
+    transition: width 0.5s ease-out;
+    transition: height 0.5s ease-out;
+}
+#chosenflex div:hover {
+    box-shadow: 0 0 20px lightgray;
+    transition: box-shadow 0.5s ease-in-out;
+}
+#cat {
+    background-image: url(images/cat.png);
+    background-size: 100% 100%;
+}
+#chosenflex #cat:hover {
+    background-image: url("images/cat_overlay.png");
+    transition: background-image 0.5s ease-in-out;
+}
+#food {
+    background-image: url(images/food.png);
+    background-size: 100% 100%;
+}
+#chosenflex #food:hover {
+    background-image: url("images/food_overlay.png");
+    transition: background-image 0.5s ease-in-out;
+}
+#book {
+    background-image: url(images/book.png);
+    background-size: 100% 100%;
+}
+#chosenflex #book:hover {
+    background-image: url("images/book_overlay.png");
+    transition: background-image 0.5s ease-in-out;
+}
+#audio {
+    height: 5em;
+    bottom: 0;
+    text-align: center;
+}
+
+/*--FOOTER--*/
+
+footer {
+    background-color: #F9A739;
+    text-align: center;
+    padding: 20px 50px 15px 50px;
+}
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 15px 0;
+}
+#brs {
+    display: flex;
+    margin: 0 25px;
+}
+#vertical_br {
+    background-color: #210D41;
+    margin: 0 50px;
+    width: .5px;
+    height: 100px;
+}
+#socials img {
+    padding: 30px 5px;
+    width: 35px;
+    height: auto;
+}
+#fb:hover {
+    content: url("images/fb_active.png");
+}
+#ig:hover {
+    content: url("images/ig_active.png");
+}
+
+
+/*---OTHER FORMATTING---*/
+.center {
+    display: block;
+    margin: auto;
+}
+
+#headertext {
+    object-fit: cover;
+    width: 350px;
+}
+
+#smallthis {
+    max-height: 600px;
+    max-width: 600px;
+    margin: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/contact.css" />
+    <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="description" content="CS101 Final Output" />
+    <meta name="author" content="BSCS Nico Marcelino" />
+
+    <title>CONTACT ME || we are the moon</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/images/we_are_the_moon.png" class="center" /></a>
+    </header>
+    <nav>
+        <div id="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li style="float:right"><a href="contactme.html">CONTACT ME</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="contactme">
+        <div id="contact_heading">
+            <img id="headertext" src="assets/images/headers/header_contactme.png" />
+
+            <p>
+                <span style="letter-spacing: .09em"> the world is beautiful, and the night is young</span>
+                <br />
+                <span style="font-size: .65em; color: #B57929">so much things to be said, shall we talk for a bit?</span>
+            </p>
+        </div>
+        <div id="form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="we are the moon" required>
+                <br />
+                <label for="name">Email</label>
+                <input type="email" name="email" placeholder="wearethemoon@email.com" required>
+                <br />
+                <label for="name">Message</label>
+                <textarea placeholder="Anything you want to say?" required></textarea>
+                <input type="submit">
+            </form>
+        </div>
+        
+    </section>
+
+    
+
+
+    <section id="the_etc" style="height: 48em">
+        <div id="chosenflex">
+            <div id="cat"></div>
+            <div id="food"></div>
+            <div id="book"></div>
+        </div>
+
+        <div id="audio" style="margin: 150px auto">
+            <iframe src="https://open.spotify.com/embed/album/2lATw9ZAVp7ILQcOKPCPqp"
+                    width="40%"
+                    height="80"
+                    frameBorder="0"
+                    allowfullscreen=""
+                    allow="autoplay;
+                        clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+        </div>
+
+    </section>
+    <footer>
+        <div id="footer">
+            <div>
+                <h2>"we are the moon"</h2>
+                <p>BSCS | Nico Marcelino</p>
+                <p>CS101</p>
+            </div>
+            <div id="brs">
+                <div id="vertical_br"></div>
+            </div>
+            <div id="socials">
+                <a target="_blank" href="https://www.facebook.com/marcelinonab/"><img src="assets/images/fb.png" id="fb" /></a>
+                <a target="_blank" href="https://www.instagram.com/conquihare/"><img src="assets/images/ig.png" id="ig" /></a>
+            </div>
+        </div>
+
+        <p>©WE ARE THE MOON 2021. All Rights Reserved.<br />Powered by <i>my love for you</i> ♥</p>
+    </footer>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script> <!--sticky-->
+</body>
+</html>

@@ -1,0 +1,138 @@
+/*--GREETING--*/
+
+#greeting {
+    padding: 5% 5% 5% 5%;
+    background-color: #F7F7F5;
+    background-image: url(images/greeting.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+#greeting div {
+    padding: 90px 0 90px 20px;
+    width: 40%;
+}
+
+#greeting p {
+    padding: 10px 0 0 55px;
+}
+/*--INSPIRATIONAL QUOTE--*/
+
+#inspire {
+    padding: 100px;
+    text-align: center;
+}
+
+    #inspire img {
+        width: 4.5em;
+        height: auto;
+        padding: 0 0 45px 0;
+    }
+
+    #inspire p {
+        padding: 25px;
+    }
+
+#quote {
+    font-size: 1.5em;
+    letter-spacing: 7px;
+    line-height: 50px;
+    font-family: 'Manjari Thin';
+    /*text-shadow: -1px 1px #F9A739;*/
+}
+
+#creditthis {
+    font-size: 18px;
+    color: #B57929;
+    letter-spacing: 1px;
+    white-space: pre;
+}
+
+/*--MY ART--*/
+#my_art {
+    background-color: #F7F7F5;
+    padding: 25px 0;
+}
+
+#center_this_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my_art h1 {
+    text-align: center;
+}
+
+/*--BLOG POST--*/
+#life_updates {
+    padding: 50px 150px 80px 150px;
+}
+
+#life_content {
+    padding: 130px 0 0 0;
+    display: flex;
+}
+
+#lu_img {
+    background-image: url(images/covid.jpg);
+    background-size: 500px;
+    width: 130em;
+    height: 20em;
+    margin: 0 25px 0 0;
+}
+
+#life_content #title {
+    font-size: 2em;
+}
+
+#life_content #date {
+    font-size: 1.2em;
+    padding: 8px 0 30px 0;
+}
+
+#life_content button {
+    float: right;
+    background-color: #B57929;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 50px 0 0 0;
+    transition: padding 0.5s ease-in-out;
+}
+
+#life_content button:hover {
+    box-shadow: 0 0 10px gray; 
+    padding: 15px 25px;
+    transition: padding 0.5s ease-in-out;
+}
+
+
+/*---HEADERS---*/
+
+#index_life {
+    position: absolute;
+    width: 350px;
+    left: 14.2vh;
+}
+#index_life:hover {
+    content:url(images/headers/header_life_active.png);
+}
+
+#index_art {
+    width: 300px;
+    object-fit: cover;
+}
+#index_art:hover {
+    content: url(images/headers/header_art_active.png);
+}
+
+#index_hey {
+    width: 350px;
+    height: 60px;
+    object-fit: cover;
+}
+#index_hey:hover {
+    content: url(images/headers/header_hey_active.png);
+}

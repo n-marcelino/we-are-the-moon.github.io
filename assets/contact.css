@@ -1,0 +1,67 @@
+#contact_me {
+    padding: 25px 50px 65px 50px;
+}
+#contact_heading {
+    text-align: center;
+}
+#contact_heading img:hover {
+    content: url(images/headers/header_contactme_active.png);
+}
+
+#form {
+    width: 35em;
+    margin:auto;
+    padding: 50px 0;
+}
+
+form {
+    font-family: 'Manjari Thin';
+    font-size: 1.3em;
+    border-left: solid 3px #CDBBE6;
+    border-right: solid 3px #CDBBE6;
+    padding-left: 1em;
+    padding-bottom: .5em;
+}
+
+input, select {
+    display: block;
+    width: 95%;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    transition: 0.3s;
+}
+
+    input:hover, textarea:hover, select:hover {
+        box-shadow: 0 0 5px 2px grey;
+    }
+
+select {
+    width: 340px;
+    transition: 0.3s;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    width: 95%;
+    height: 150px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    transition: 0.3s;
+}
+
+input[type=submit] {
+    margin-top: 1em;
+    width: 95%;
+    background-color: #CDBBE6;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+    input[type=submit]:hover {
+        background-color: #F9A739;
+    }
